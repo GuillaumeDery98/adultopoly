@@ -42,7 +42,7 @@ const getSpaceStyle = (index: number) => {
 </script>
 
 <template>
-  <div class="grid grid-cols-11 grid-rows-11 gap-1 w-[616px] h-[616px] neon-border p-2">
+  <div class="grid grid-cols-11 grid-rows-11 gap-1 w-[616px] h-[616px] p-2">
     <div
       v-for="(space, index) in boardSpaces"
       :key="index"
