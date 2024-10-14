@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-black text-white;
+}
+
+.neon-text {
+  @apply text-neon-red font-bold;
+  text-shadow: 0 0 5px theme('colors.neon-red'), 0 0 20px theme('colors.neon-red');
+}
+
+.neon-border {
+  @apply border-neon-red border-2 shadow-neon;
+}
